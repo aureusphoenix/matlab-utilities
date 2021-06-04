@@ -11,7 +11,7 @@ function range = vrange(vector, method)
 
     switch lower(method)
         case 'start-end'
-            range = vector(1) - vector(end);
+            range = vector(end) - vector(1);
         case 'min-max'
             range = min(vector) - max(vector);
     end
