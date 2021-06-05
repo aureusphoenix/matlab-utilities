@@ -1,4 +1,4 @@
-function val = color(idx)
+function val = color(idx) 
 
 %% Input handling
 
